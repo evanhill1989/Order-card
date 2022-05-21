@@ -1,0 +1,120 @@
+:root {
+  font-family: 'Red Hat Display', sans-serif;
+
+  /* primary */
+  --p-blue: hsla(245, 75%, 52%, 1);
+  --p-dark-blue: hsla(223, 46%, 23%, 1);
+  --p-lt-blue: hsla(245, 83%, 68%, 1);
+  /* neutral */
+  --n-dark-gray: hsla(224, 23%, 55%, 1);
+  --n-lt-gray: hsla(228, 100%, 99%, 1);
+  --n-white: hsla(0, 0%, 100%, 1);
+  --n-bg: hsla(225, 100%, 94%, 1);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+}
+.main-container {
+  width: 400px;
+  max-width: 400px;
+  height: 530px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  margin-top: 300px;
+}
+.main-img {
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+  h1 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 0px;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 10px;
+  height: 80px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.payment-checkout {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.button-title {
+  font-size: large;
+  font-weight: 600;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.p {
+font-weight: 100;
+font-size:15px;
+color: hsl(224, 23%, 55%);
+}
+.payment button {
+    height: 40px;
+    width:300px;
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+}
+ .payment button:hover {
+
+    background-color: hsl(224, 23%, 55%);
+}
+
+.link a {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%); 
+}
+.cancel-order {
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+.cancel-order a{
+  text-decoration: none;
+  color:hsl(223, 47%, 23%); 
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.plan{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan h2{
+padding-bottom: 5px;
+}
+
+h1 {
+align-items: center;
+justify-content: space-around;
+}
